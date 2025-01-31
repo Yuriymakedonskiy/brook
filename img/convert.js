@@ -1,7 +1,7 @@
 const sharp = require("sharp");
 
-sharp("live-lo-fi1.png")
-  .toFormat("avif")
-  .toFile("live-lo-fi1.avif")
+sharp("bruk.jpg")
+  .toFormat("webp")
+  .toFile("bruk.webp")
   .then(() => console.log("Conversion successful!"))
   .catch(err => console.error("Error:", err));
