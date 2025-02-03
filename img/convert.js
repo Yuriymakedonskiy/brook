@@ -1,7 +1,7 @@
 const sharp = require("sharp");
 
-sharp("bruk.jpg")
+sharp("IMG_6589.jpg")
   .toFormat("webp")
-  .toFile("bruk.webp")
+  .toFile("pool_6.webp")
   .then(() => console.log("Conversion successful!"))
   .catch(err => console.error("Error:", err));
